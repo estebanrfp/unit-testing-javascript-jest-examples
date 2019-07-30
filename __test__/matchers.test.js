@@ -12,7 +12,7 @@ describe('Comparadores comunes', () =>{
         expect(user).toEqual(user2);
     });
 
-    test('igualdad de elementos', () => {
+    test('No son exactamente iguales', () => {
         expect(user).not.toEqual(user2);
     });
 });
