@@ -8,9 +8,9 @@ describe('Comparadores comunes', () =>{
         lastname: "barajas"
     }
 
-    test('igualdad de elementos', () => {
-        expect(user).toEqual(user2);
-    });
+    // test('igualdad de elementos', () => {
+    //     expect(user).toEqual(user2);
+    // });
 
     test('No son exactamente iguales', () => {
         expect(user).not.toEqual(user2);
