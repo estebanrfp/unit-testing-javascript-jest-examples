@@ -1,0 +1,18 @@
+describe('Comparadores comunes', () =>{
+    const user= {
+        name: "oscar",
+        lastname: "barajas"
+    }
+    const user2= {
+        name: "oscar2",
+        lastname: "barajas"
+    }
+
+    test('igualdad de elementos', () => {
+        expect(user).toEqual(user2);
+    });
+
+    test('igualdad de elementos', () => {
+        expect(user).not.toEqual(user2);
+    });
+});
