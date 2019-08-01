@@ -1,4 +1,4 @@
-import {arrayFruits, arrayColors } from '../arrays'
+import { arrayFruits, arrayColors } from '../arrays'
 
 describe('Comprobaremos que existe un elemento', () => {
     test('¿Tiene una banana?', () => {

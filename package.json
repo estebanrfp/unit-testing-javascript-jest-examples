@@ -1,18 +1,23 @@
 {
+  "name": "unit-testing-javascript-jest",
+  "version": "1.0.0",
+  "description": "Unit testing javascript with jest",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
+  "author": "Esteban Fuster Pozzi <estebanrfp@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.16.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.5",
-    "babel-jest": "^24.8.0",
-    "babel-polyfill": "^6.26.0",
     "jest": "^24.8.0"
-  },
-  "dependencies": {
-    "axios": "^0.19.0"
   }
 }
