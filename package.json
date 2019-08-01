@@ -2,7 +2,6 @@
   "name": "unit-testing-javascript-jest",
   "version": "1.0.0",
   "description": "Unit testing javascript with jest",
-  "main": "server.js",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
